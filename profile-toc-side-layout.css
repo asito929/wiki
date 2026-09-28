@@ -1,0 +1,60 @@
+/* 데스크톱: 왼쪽 목차 / 오른쪽 프로필 표
+   이 블록을 기존 style.css 맨 아래에 붙여 넣으면 됩니다. */
+@media (min-width: 900px) {
+  .wiki-document {
+    display: grid;
+    grid-template-columns: minmax(260px, 0.82fr) minmax(0, 1.18fr);
+    column-gap: 28px;
+    align-items: start;
+  }
+
+  .document-header {
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+
+  .notice-box {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  .profile-area {
+    grid-column: 2;
+    grid-row: 3;
+    display: block;
+    width: 100%;
+    margin: 0 0 36px;
+  }
+
+  .profile-table {
+    width: 100%;
+    max-width: none;
+  }
+
+  .toc-box {
+    grid-column: 1;
+    grid-row: 3;
+    width: 100%;
+    margin: 0 0 36px;
+    align-self: start;
+  }
+
+  .toc-list {
+    padding-left: 34px;
+    padding-right: 12px;
+  }
+
+  .toc-list ol {
+    padding-left: 18px;
+  }
+
+  .document-content {
+    grid-column: 1 / -1;
+    grid-row: 4;
+  }
+
+  .document-footer {
+    grid-column: 1 / -1;
+    grid-row: 5;
+  }
+}

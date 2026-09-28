@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">캐릭터 전신 일러스트 자리</title>
+  <desc id="desc">아시토 캐릭터 전신 이미지를 넣기 위한 자리 표시 이미지</desc>
+  <rect width="900" height="1200" fill="#f4f5f8"/>
+  <rect x="38" y="38" width="824" height="1124" rx="26" fill="none" stroke="#cbd0d9" stroke-width="4" stroke-dasharray="16 14"/>
+  <circle cx="450" cy="300" r="100" fill="#e1e4ea"/>
+  <path d="M350 420h200l70 460H280z" fill="#e1e4ea"/>
+  <text x="450" y="1020" text-anchor="middle" font-family="sans-serif" font-size="34" font-weight="700" fill="#6b7280">캐릭터 전신 / 일러스트</text>
+  <text x="450" y="1065" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#9298a3">이미지를 교체해 주세요</text>
+</svg>
