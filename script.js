@@ -45,7 +45,7 @@ if (debutDays) {
   const koreaNow = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Seoul' }));
   const todayUtc = Date.UTC(koreaNow.getFullYear(), koreaNow.getMonth(), koreaNow.getDate());
   const debutUtc = Date.UTC(2026, 3, 29);
-  const diff = Math.max(0, Math.floor((todayUtc - debutUtc) / 86400000));
+  const diff = Math.max(1, Math.floor((todayUtc - debutUtc) / 86400000));
   debutDays.textContent = diff.toLocaleString('ko-KR');
 }
 
